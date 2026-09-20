@@ -1,0 +1,5459 @@
+{
+  "cells": [
+    {
+      "accuracy": 0.41162109375,
+      "cold": {
+        "accuracy": 0.41054001301236176,
+        "correct": 1262,
+        "total": 3074,
+        "wilson95": [
+          0.3932721055664002,
+          0.42803123076245103
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.41153659718856034,
+        "correct": 849,
+        "total": 2063,
+        "wilson95": [
+          0.39048462541809853,
+          0.4329174074556454
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.007451564828614009,
+        "correct": 5,
+        "total": 671,
+        "wilson95": [
+          0.003186941159554523,
+          0.017323741223360264
+        ]
+      },
+      "correct": 1686,
+      "hot": {
+        "accuracy": 0.41487279843444225,
+        "correct": 424,
+        "total": 1022,
+        "wilson95": [
+          0.38503966091940905,
+          0.4453434860046486
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.411706837186424,
+        "correct": 837,
+        "total": 2033,
+        "wilson95": [
+          0.3904999577514543,
+          0.4332467563360246
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4908029197080292,
+        "correct": 1681,
+        "total": 3425,
+        "wilson95": [
+          0.47408033215078177,
+          0.5075461149286151
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.39663961930289904,
+        0.4267681862739887
+      ]
+    },
+    {
+      "accuracy": 0.725830078125,
+      "cold": {
+        "accuracy": 0.7321371355334828,
+        "correct": 2285,
+        "total": 3121,
+        "wilson95": [
+          0.7163221755069531,
+          0.7473813496462391
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7226061204343535,
+        "correct": 1464,
+        "total": 2026,
+        "wilson95": [
+          0.7027035436250928,
+          0.7416661366178401
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.005763688760806916,
+        "correct": 4,
+        "total": 694,
+        "wilson95": [
+          0.002243601282185673,
+          0.014725093642740984
+        ]
+      },
+      "correct": 2973,
+      "hot": {
+        "accuracy": 0.7056410256410256,
+        "correct": 688,
+        "total": 975,
+        "wilson95": [
+          0.6762715096112396,
+          0.7333964671447958
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.7289855072463768,
+        "correct": 1509,
+        "total": 2070,
+        "wilson95": [
+          0.7094266003279774,
+          0.7476960962831161
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8727219282774838,
+        "correct": 2969,
+        "total": 3402,
+        "wilson95": [
+          0.8611005362735552,
+          0.8835025319145088
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.7119618335434069,
+        0.7392751273443797
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3092,
+        "total": 3092,
+        "wilson95": [
+          0.9987591551854993,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2063,
+        "total": 2063,
+        "wilson95": [
+          0.9981413867985375,
+          0.9999999999999999
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 697,
+        "total": 697,
+        "wilson95": [
+          0.9945187905590543,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1004,
+        "total": 1004,
+        "wilson95": [
+          0.996188429452794,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2033,
+        "total": 2033,
+        "wilson95": [
+          0.9981140118667269,
+          0.9999999999999998
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3399,
+        "total": 3399,
+        "wilson95": [
+          0.9988711026160987,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3073,
+        "total": 3073,
+        "wilson95": [
+          0.9987514927655172,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2026,
+        "total": 2026,
+        "wilson95": [
+          0.9981075079514211,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 715,
+        "total": 715,
+        "wilson95": [
+          0.9946560416437357,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1023,
+        "total": 1023,
+        "wilson95": [
+          0.9962589562510401,
+          1.0
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2070,
+        "total": 2070,
+        "wilson95": [
+          0.998147660321692,
+          1.0000000000000002
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3381,
+        "total": 3381,
+        "wilson95": [
+          0.9988650993355439,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3076,
+        "total": 3076,
+        "wilson95": [
+          0.9987527089065927,
+          1.0000000000000002
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2030,
+        "total": 2030,
+        "wilson95": [
+          0.9981112299564777,
+          0.9999999999999999
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 717,
+        "total": 717,
+        "wilson95": [
+          0.994670868644294,
+          0.9999999999999998
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1020,
+        "total": 1020,
+        "wilson95": [
+          0.996247994464769,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2066,
+        "total": 2066,
+        "wilson95": [
+          0.9981440806471801,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3379,
+        "total": 3379,
+        "wilson95": [
+          0.9988644283607566,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.200927734375,
+      "cold": {
+        "accuracy": 0.20419534578826615,
+        "correct": 623,
+        "total": 3051,
+        "wilson95": [
+          0.19026762076229314,
+          0.21886701868416408
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.19040835707502374,
+        "correct": 401,
+        "total": 2106,
+        "wilson95": [
+          0.17420930598568268,
+          0.20773477585595623
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.012711864406779662,
+        "correct": 9,
+        "total": 708,
+        "wilson95": [
+          0.006701915929210647,
+          0.02398112247779477
+        ]
+      },
+      "correct": 823,
+      "hot": {
+        "accuracy": 0.19138755980861244,
+        "correct": 200,
+        "total": 1045,
+        "wilson95": [
+          0.1686832059877181,
+          0.21635254505397797
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.21206030150753769,
+        "correct": 422,
+        "total": 1990,
+        "wilson95": [
+          0.19466415478468366,
+          0.23056597325276343
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.24025974025974026,
+        "correct": 814,
+        "total": 3388,
+        "wilson95": [
+          0.22617273969360305,
+          0.2549350828955068
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.18893947578897127,
+        0.21347644087314896
+      ]
+    },
+    {
+      "accuracy": 0.388671875,
+      "cold": {
+        "accuracy": 0.38835263835263834,
+        "correct": 1207,
+        "total": 3108,
+        "wilson95": [
+          0.3713659942507153,
+          0.405614931935991
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.38453764527539164,
+        "correct": 761,
+        "total": 1979,
+        "wilson95": [
+          0.36334732785144414,
+          0.4061753447923874
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.009186351706036745,
+        "correct": 7,
+        "total": 762,
+        "wilson95": [
+          0.0044568551879629595,
+          0.018839688261340342
+        ]
+      },
+      "correct": 1592,
+      "hot": {
+        "accuracy": 0.3896761133603239,
+        "correct": 385,
+        "total": 988,
+        "wilson95": [
+          0.35975037241676555,
+          0.4204564357769517
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.3925366084081247,
+        "correct": 831,
+        "total": 2117,
+        "wilson95": [
+          0.3719480195057926,
+          0.41351449203290325
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.47540491901619675,
+        "correct": 1585,
+        "total": 3334,
+        "wilson95": [
+          0.4584914157920492,
+          0.4923750342705778
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.3738549812106128,
+        0.40369739266524585
+      ]
+    },
+    {
+      "accuracy": 0.731689453125,
+      "cold": {
+        "accuracy": 0.7363374880153404,
+        "correct": 2304,
+        "total": 3129,
+        "wilson95": [
+          0.7206158388010833,
+          0.7514795479079348
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7333333333333333,
+        "correct": 1463,
+        "total": 1995,
+        "wilson95": [
+          0.7134934593374077,
+          0.7522763474131912
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.014265335235378032,
+        "correct": 10,
+        "total": 701,
+        "wilson95": [
+          0.007766783692841348,
+          0.026058495059325802
+        ]
+      },
+      "correct": 2997,
+      "hot": {
+        "accuracy": 0.7166494312306101,
+        "correct": 693,
+        "total": 967,
+        "wilson95": [
+          0.6874333839294702,
+          0.7441509867142906
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.7301285102332222,
+        "correct": 1534,
+        "total": 2101,
+        "wilson95": [
+          0.7107404466243101,
+          0.7486765778492543
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8798232695139911,
+        "correct": 2987,
+        "total": 3395,
+        "wilson95": [
+          0.8684537860412664,
+          0.8903341807545848
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.7179079070335224,
+        0.7450368236502718
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3032,
+        "total": 3032,
+        "wilson95": [
+          0.9987346312800581,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2024,
+        "total": 2024,
+        "wilson95": [
+          0.9981056414425377,
+          1.0000000000000002
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 701,
+        "total": 701,
+        "wilson95": [
+          0.9945498966148762,
+          0.9999999999999998
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1064,
+        "total": 1064,
+        "wilson95": [
+          0.9964025944217069,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2072,
+        "total": 2072,
+        "wilson95": [
+          0.9981494449856125,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3395,
+        "total": 3395,
+        "wilson95": [
+          0.9988697740488234,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3030,
+        "total": 3030,
+        "wilson95": [
+          0.9987337971107471,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2031,
+        "total": 2031,
+        "wilson95": [
+          0.9981121581713198,
+          0.9999999999999999
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 700,
+        "total": 700,
+        "wilson95": [
+          0.9945421532469393,
+          1.0000000000000002
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1066,
+        "total": 1066,
+        "wilson95": [
+          0.9964093195407394,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2065,
+        "total": 2065,
+        "wilson95": [
+          0.9981431835657024,
+          0.9999999999999998
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3396,
+        "total": 3396,
+        "wilson95": [
+          0.9988701064837221,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.097900390625,
+      "cold": {
+        "accuracy": 0.10138844042621892,
+        "correct": 314,
+        "total": 3097,
+        "wilson95": [
+          0.09124677602884382,
+          0.11251773989742181
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.09234567901234568,
+        "correct": 187,
+        "total": 2025,
+        "wilson95": [
+          0.080496180188816,
+          0.10573890347332597
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.006482982171799027,
+        "correct": 4,
+        "total": 617,
+        "wilson95": [
+          0.0025239086215160748,
+          0.016549332465165392
+        ]
+      },
+      "correct": 401,
+      "hot": {
+        "accuracy": 0.08708708708708708,
+        "correct": 87,
+        "total": 999,
+        "wilson95": [
+          0.07114612027101525,
+          0.10619144117147772
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.10333172380492515,
+        "correct": 214,
+        "total": 2071,
+        "wilson95": [
+          0.09094806114943282,
+          0.11718420697390886
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.11411325093417649,
+        "correct": 397,
+        "total": 3479,
+        "wilson95": [
+          0.1039709178649679,
+          0.12510682462028636
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.0891726470391819,
+        0.10738165070980757
+      ]
+    },
+    {
+      "accuracy": 0.202392578125,
+      "cold": {
+        "accuracy": 0.20697522816166883,
+        "correct": 635,
+        "total": 3068,
+        "wilson95": [
+          0.19301011391974582,
+          0.2216732204570656
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.21634850709740577,
+        "correct": 442,
+        "total": 2043,
+        "wilson95": [
+          0.199034986316353,
+          0.23472672736919634
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0016750418760469012,
+        "correct": 1,
+        "total": 597,
+        "wilson95": [
+          0.0002957472417558201,
+          0.009426382839213442
+        ]
+      },
+      "correct": 829,
+      "hot": {
+        "accuracy": 0.188715953307393,
+        "correct": 194,
+        "total": 1028,
+        "wilson95": [
+          0.1659723322337436,
+          0.2137773429426494
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.1885046273745738,
+        "correct": 387,
+        "total": 2053,
+        "wilson95": [
+          0.17217385275807626,
+          0.20599893031421532
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.2366390397256359,
+        "correct": 828,
+        "total": 3499,
+        "wilson95": [
+          0.22284997384709546,
+          0.251005745383633
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.19036964697634978,
+        0.21497321213477233
+      ]
+    },
+    {
+      "accuracy": 0.381591796875,
+      "cold": {
+        "accuracy": 0.3732943469785575,
+        "correct": 1149,
+        "total": 3078,
+        "wilson95": [
+          0.35637499021173824,
+          0.3905295762877736
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.3763855421686747,
+        "correct": 781,
+        "total": 2075,
+        "wilson95": [
+          0.35578642240306846,
+          0.3974415124048991
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.003289473684210526,
+        "correct": 2,
+        "total": 608,
+        "wilson95": [
+          0.0009025563265722576,
+          0.011913604964309044
+        ]
+      },
+      "correct": 1563,
+      "hot": {
+        "accuracy": 0.4066797642436149,
+        "correct": 414,
+        "total": 1018,
+        "wilson95": [
+          0.3769104706086154,
+          0.437150704576742
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.3869371598218704,
+        "correct": 782,
+        "total": 2021,
+        "wilson95": [
+          0.3659364409499387,
+          0.40836687647316194
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.44753440366972475,
+        "correct": 1561,
+        "total": 3488,
+        "wilson95": [
+          0.4310995147921204,
+          0.46408472987756455
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.36683264629546986,
+        0.3965728390768798
+      ]
+    },
+    {
+      "accuracy": 0.728271484375,
+      "cold": {
+        "accuracy": 0.7341447789878283,
+        "correct": 2292,
+        "total": 3122,
+        "wilson95": [
+          0.7183669729849378,
+          0.7493470871361976
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7222486898523106,
+        "correct": 1516,
+        "total": 2099,
+        "wilson95": [
+          0.7026951061290376,
+          0.7409902682896505
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.004830917874396135,
+        "correct": 3,
+        "total": 621,
+        "wilson95": [
+          0.001644279553282114,
+          0.014106049881113261
+        ]
+      },
+      "correct": 2983,
+      "hot": {
+        "accuracy": 0.7094455852156057,
+        "correct": 691,
+        "total": 974,
+        "wilson95": [
+          0.6801540119542878,
+          0.7370915408084885
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.7346019028542814,
+        "correct": 1467,
+        "total": 1997,
+        "wilson95": [
+          0.7147991074962164,
+          0.7535038636708605
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8575539568345324,
+        "correct": 2980,
+        "total": 3475,
+        "wilson95": [
+          0.8455382937846287,
+          0.8687799726311107
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.714439001527118,
+        0.7416761967756718
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3128,
+        "total": 3128,
+        "wilson95": [
+          0.9987734184915795,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2097,
+        "total": 2097,
+        "wilson95": [
+          0.9981714665785154,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 619,
+        "total": 619,
+        "wilson95": [
+          0.9938323649360663,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 968,
+        "total": 968,
+        "wilson95": [
+          0.9960472371436431,
+          1.0
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 1999,
+        "total": 1999,
+        "wilson95": [
+          0.9980819955549771,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3477,
+        "total": 3477,
+        "wilson95": [
+          0.9988963993717787,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.05419921875,
+      "cold": {
+        "accuracy": 0.052597402597402594,
+        "correct": 162,
+        "total": 3080,
+        "wilson95": [
+          0.04525638846582625,
+          0.061053051626488164
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.05542396968261488,
+        "correct": 117,
+        "total": 2111,
+        "wilson95": [
+          0.04644651787044525,
+          0.06601650285798441
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.008143322475570033,
+        "correct": 5,
+        "total": 614,
+        "wilson95": [
+          0.0034832122789391386,
+          0.01891971750682505
+        ]
+      },
+      "correct": 222,
+      "hot": {
+        "accuracy": 0.05905511811023622,
+        "correct": 60,
+        "total": 1016,
+        "wilson95": [
+          0.046153536179569736,
+          0.0752785332362978
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.05289672544080604,
+        "correct": 105,
+        "total": 1985,
+        "wilson95": [
+          0.043885510238480516,
+          0.0636351057826144
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.06232050545663412,
+        "correct": 217,
+        "total": 3482,
+        "wilson95": [
+          0.05476350307416476,
+          0.07084216889716512
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.047673906064918524,
+        0.06155994195551547
+      ]
+    },
+    {
+      "accuracy": 0.1083984375,
+      "cold": {
+        "accuracy": 0.1146103896103896,
+        "correct": 353,
+        "total": 3080,
+        "wilson95": [
+          0.10383723866849229,
+          0.126343679611317
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.10495049504950495,
+        "correct": 212,
+        "total": 2020,
+        "wilson95": [
+          0.09232640127470663,
+          0.11907427784271803
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0015748031496062992,
+        "correct": 1,
+        "total": 635,
+        "wilson95": [
+          0.00027804553592907736,
+          0.0088657862239531
+        ]
+      },
+      "correct": 444,
+      "hot": {
+        "accuracy": 0.08956692913385826,
+        "correct": 91,
+        "total": 1016,
+        "wilson95": [
+          0.0735189901469665,
+          0.10870684232271374
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.11175337186897881,
+        "correct": 232,
+        "total": 2076,
+        "wilson95": [
+          0.09891113095678364,
+          0.12602979270668072
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.12799768852932678,
+        "correct": 443,
+        "total": 3461,
+        "wilson95": [
+          0.11727834721011152,
+          0.1395419054324332
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.09924213367069452,
+        0.1182885849628083
+      ]
+    },
+    {
+      "accuracy": 0.189453125,
+      "cold": {
+        "accuracy": 0.19596354166666666,
+        "correct": 602,
+        "total": 3072,
+        "wilson95": [
+          0.18231025190488778,
+          0.2103762616853775
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.1941793893129771,
+        "correct": 407,
+        "total": 2096,
+        "wilson95": [
+          0.17781057622849145,
+          0.21166714142739645
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0016501650165016502,
+        "correct": 1,
+        "total": 606,
+        "wilson95": [
+          0.00029135405990968807,
+          0.009287297466981065
+        ]
+      },
+      "correct": 776,
+      "hot": {
+        "accuracy": 0.169921875,
+        "correct": 174,
+        "total": 1024,
+        "wilson95": [
+          0.14816253675124053,
+          0.19414848388455241
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.1845,
+        "correct": 369,
+        "total": 2000,
+        "wilson95": [
+          0.16811058609550197,
+          0.20209907073896857
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.22206303724928367,
+        "correct": 775,
+        "total": 3490,
+        "wilson95": [
+          0.2085834114790832,
+          0.23615384324030395
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.17774545400072264,
+        0.20174274681088303
+      ]
+    },
+    {
+      "accuracy": 0.3974609375,
+      "cold": {
+        "accuracy": 0.4055989583333333,
+        "correct": 1246,
+        "total": 3072,
+        "wilson95": [
+          0.3883642657191583,
+          0.4230694483506243
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.390984811366977,
+        "correct": 798,
+        "total": 2041,
+        "wilson95": [
+          0.370038524134988,
+          0.41234069256152733
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0030441400304414,
+        "correct": 2,
+        "total": 657,
+        "wilson95": [
+          0.0008352103282515703,
+          0.011030659641056373
+        ]
+      },
+      "correct": 1628,
+      "hot": {
+        "accuracy": 0.373046875,
+        "correct": 382,
+        "total": 1024,
+        "wilson95": [
+          0.3439521087194282,
+          0.40309059152510757
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.40389294403892945,
+        "correct": 830,
+        "total": 2055,
+        "wilson95": [
+          0.3828765794962693,
+          0.425267948433406
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4728118639139285,
+        "correct": 1626,
+        "total": 3439,
+        "wilson95": [
+          0.4561652242952514,
+          0.4895191755713476
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.3825769622444825,
+        0.4125370663253873
+      ]
+    },
+    {
+      "accuracy": 0.722900390625,
+      "cold": {
+        "accuracy": 0.7232520325203252,
+        "correct": 2224,
+        "total": 3075,
+        "wilson95": [
+          0.7071679565108144,
+          0.7387790070999418
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7245246221355436,
+        "correct": 1486,
+        "total": 2051,
+        "wilson95": [
+          0.7047838892518566,
+          0.7434258721613555
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0029985007496251873,
+        "correct": 2,
+        "total": 667,
+        "wilson95": [
+          0.0008226825608489393,
+          0.010866307017223676
+        ]
+      },
+      "correct": 2961,
+      "hot": {
+        "accuracy": 0.7218413320274241,
+        "correct": 737,
+        "total": 1021,
+        "wilson95": [
+          0.6935633348527267,
+          0.7484562537393237
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.7212713936430318,
+        "correct": 1475,
+        "total": 2045,
+        "wilson95": [
+          0.701437240475803,
+          0.7402758047692474
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.862933799941674,
+        "correct": 2959,
+        "total": 3429,
+        "wilson95": [
+          0.851015803184684,
+          0.8740395277582902
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.7089899089520311,
+        0.7363931670377519
+      ]
+    },
+    {
+      "accuracy": 0.379638671875,
+      "cold": {
+        "accuracy": 0.3684039087947883,
+        "correct": 1131,
+        "total": 3070,
+        "wilson95": [
+          0.3515150303316317,
+          0.3856217053053469
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.38514851485148516,
+        "correct": 778,
+        "total": 2020,
+        "wilson95": [
+          0.3641642608358928,
+          0.406568768681955
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.01308139534883721,
+        "correct": 9,
+        "total": 688,
+        "wilson95": [
+          0.006897158764342465,
+          0.024672875876144175
+        ]
+      },
+      "correct": 1555,
+      "hot": {
+        "accuracy": 0.41325536062378165,
+        "correct": 424,
+        "total": 1026,
+        "wilson95": [
+          0.3835028077210048,
+          0.44365505383582754
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.37427745664739887,
+        "correct": 777,
+        "total": 2076,
+        "wilson95": [
+          0.3537104107237865,
+          0.3953089206362187
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4536384976525822,
+        "correct": 1546,
+        "total": 3408,
+        "wilson95": [
+          0.436985531296042,
+          0.4703958626479704
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.36489603726717573,
+        0.3946068581731715
+      ]
+    },
+    {
+      "accuracy": 0.716064453125,
+      "cold": {
+        "accuracy": 0.7103109656301145,
+        "correct": 2170,
+        "total": 3055,
+        "wilson95": [
+          0.693969346192429,
+          0.7261243452587842
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7284545016851228,
+        "correct": 1513,
+        "total": 2077,
+        "wilson95": [
+          0.7089185176329499,
+          0.7471469822047173
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.10689170182841069,
+        "correct": 76,
+        "total": 711,
+        "wilson95": [
+          0.08625595828533203,
+          0.13175246427845255
+        ]
+      },
+      "correct": 2933,
+      "hot": {
+        "accuracy": 0.7329490874159462,
+        "correct": 763,
+        "total": 1041,
+        "wilson95": [
+          0.7052529034331809,
+          0.7589323525265284
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.703318474492323,
+        "correct": 1420,
+        "total": 2019,
+        "wilson95": [
+          0.6830224169680807,
+          0.7228423117875968
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8440177252584934,
+        "correct": 2857,
+        "total": 3385,
+        "wilson95": [
+          0.8314053448353038,
+          0.8558501754658685
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.7020582515570757,
+        0.7296657596706986
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3024,
+        "total": 3024,
+        "wilson95": [
+          0.9987312879908214,
+          0.9999999999999998
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2051,
+        "total": 2051,
+        "wilson95": [
+          0.9981305327453833,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 745,
+        "total": 745,
+        "wilson95": [
+          0.9948701306859483,
+          1.0000000000000002
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1072,
+        "total": 1072,
+        "wilson95": [
+          0.9964293448730771,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2045,
+        "total": 2045,
+        "wilson95": [
+          0.99812505803992,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3351,
+        "total": 3351,
+        "wilson95": [
+          0.9988549507129184,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3047,
+        "total": 3047,
+        "wilson95": [
+          0.9987408526884977,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2054,
+        "total": 2054,
+        "wilson95": [
+          0.9981332581262622,
+          0.9999999999999999
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 707,
+        "total": 707,
+        "wilson95": [
+          0.9945958993063416,
+          1.0000000000000002
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1049,
+        "total": 1049,
+        "wilson95": [
+          0.996351341611303,
+          1.0
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2042,
+        "total": 2042,
+        "wilson95": [
+          0.9981223086451144,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3389,
+        "total": 3389,
+        "wilson95": [
+          0.9988677753242177,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3050,
+        "total": 3050,
+        "wilson95": [
+          0.9987420896361211,
+          1.0000000000000002
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2064,
+        "total": 2064,
+        "wilson95": [
+          0.998142285616575,
+          1.0000000000000002
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 718,
+        "total": 718,
+        "wilson95": [
+          0.99467825133379,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1046,
+        "total": 1046,
+        "wilson95": [
+          0.9963409152987638,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2032,
+        "total": 2032,
+        "wilson95": [
+          0.9981130854742885,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3378,
+        "total": 3378,
+        "wilson95": [
+          0.998864092575755,
+          1.0
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.208984375,
+      "cold": {
+        "accuracy": 0.1971419291977915,
+        "correct": 607,
+        "total": 3079,
+        "wilson95": [
+          0.1834705492269981,
+          0.21156807831454452
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.20250723240115717,
+        "correct": 420,
+        "total": 2074,
+        "wilson95": [
+          0.18576920262858992,
+          0.2203452558342936
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.004341534008683068,
+        "correct": 3,
+        "total": 691,
+        "wilson95": [
+          0.0014775885790151285,
+          0.012686014780803594
+        ]
+      },
+      "correct": 856,
+      "hot": {
+        "accuracy": 0.2448377581120944,
+        "correct": 249,
+        "total": 1017,
+        "wilson95": [
+          0.21940329671435407,
+          0.27219258674480334
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.21562809099901087,
+        "correct": 436,
+        "total": 2022,
+        "wilson95": [
+          0.19825071542523207,
+          0.2340839349528626
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.2505139500734214,
+        "correct": 853,
+        "total": 3405,
+        "wilson95": [
+          0.23624642052214723,
+          0.2653437764629077
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.19680851606246086,
+        0.22170558406916963
+      ]
+    },
+    {
+      "accuracy": 0.381591796875,
+      "cold": {
+        "accuracy": 0.38469055374592837,
+        "correct": 1181,
+        "total": 3070,
+        "wilson95": [
+          0.36763478931800087,
+          0.40203452854212396
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.38042430086788814,
+        "correct": 789,
+        "total": 2074,
+        "wilson95": [
+          0.35976935656493475,
+          0.40152138200685633
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0013280212483399733,
+        "correct": 1,
+        "total": 753,
+        "wilson95": [
+          0.0002344668380126272,
+          0.007483739865140569
+        ]
+      },
+      "correct": 1563,
+      "hot": {
+        "accuracy": 0.3723196881091618,
+        "correct": 382,
+        "total": 1026,
+        "wilson95": [
+          0.343267096006627,
+          0.4023248125770252
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.3827893175074184,
+        "correct": 774,
+        "total": 2022,
+        "wilson95": [
+          0.3618442532313204,
+          0.40417889831582476
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.467244989530362,
+        "correct": 1562,
+        "total": 3343,
+        "wilson95": [
+          0.45037943342901665,
+          0.4841857371371543
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.36683264629546986,
+        0.3965728390768798
+      ]
+    },
+    {
+      "accuracy": 0.719482421875,
+      "cold": {
+        "accuracy": 0.721178756476684,
+        "correct": 2227,
+        "total": 3088,
+        "wilson95": [
+          0.7050954951514083,
+          0.7367124106527356
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7067961165048544,
+        "correct": 1456,
+        "total": 2060,
+        "wilson95": [
+          0.6867674152582732,
+          0.7260549923731947
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.08460471567267684,
+        "correct": 61,
+        "total": 721,
+        "wilson95": [
+          0.06642745997900378,
+          0.10718493110226283
+        ]
+      },
+      "correct": 2947,
+      "hot": {
+        "accuracy": 0.7142857142857143,
+        "correct": 720,
+        "total": 1008,
+        "wilson95": [
+          0.6856251259295706,
+          0.7413192300602481
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.7323182711198428,
+        "correct": 1491,
+        "total": 2036,
+        "wilson95": [
+          0.7126621661531151,
+          0.7510993658567876
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8551111111111112,
+        "correct": 2886,
+        "total": 3375,
+        "wilson95": [
+          0.8428320921406632,
+          0.8665826670935913
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.7055235878735155,
+        0.7330299557352631
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3092,
+        "total": 3092,
+        "wilson95": [
+          0.9987591551854993,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2035,
+        "total": 2035,
+        "wilson95": [
+          0.998115861925372,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 698,
+        "total": 698,
+        "wilson95": [
+          0.9945266003134824,
+          0.9999999999999999
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1004,
+        "total": 1004,
+        "wilson95": [
+          0.996188429452794,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2061,
+        "total": 2061,
+        "wilson95": [
+          0.9981395865506845,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3398,
+        "total": 3398,
+        "wilson95": [
+          0.9988707707671876,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3073,
+        "total": 3073,
+        "wilson95": [
+          0.9987514927655172,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2038,
+        "total": 2038,
+        "wilson95": [
+          0.9981186302177875,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 698,
+        "total": 698,
+        "wilson95": [
+          0.9945266003134824,
+          0.9999999999999999
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1023,
+        "total": 1023,
+        "wilson95": [
+          0.9962589562510401,
+          1.0
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2058,
+        "total": 2058,
+        "wilson95": [
+          0.9981368796304586,
+          1.0000000000000002
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3398,
+        "total": 3398,
+        "wilson95": [
+          0.9988707707671876,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.092041015625,
+      "cold": {
+        "accuracy": 0.08928571428571429,
+        "correct": 275,
+        "total": 3080,
+        "wilson95": [
+          0.07972002161823229,
+          0.09987463855359481
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.1016949152542373,
+        "correct": 210,
+        "total": 2065,
+        "wilson95": [
+          0.08938946344851764,
+          0.11547952591439725
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.001579778830963665,
+        "correct": 1,
+        "total": 633,
+        "wilson95": [
+          0.0002789242084070354,
+          0.008893623746481713
+        ]
+      },
+      "correct": 377,
+      "hot": {
+        "accuracy": 0.10039370078740158,
+        "correct": 102,
+        "total": 1016,
+        "wilson95": [
+          0.08339332971259725,
+          0.12040448319553271
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.08222550467749877,
+        "correct": 167,
+        "total": 2031,
+        "wilson95": [
+          0.07105229815023566,
+          0.09497609553921292
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.10857637886225815,
+        "correct": 376,
+        "total": 3463,
+        "wilson95": [
+          0.09864504880184387,
+          0.11937514848684515
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.0835661303323475,
+        0.10128039762063454
+      ]
+    },
+    {
+      "accuracy": 0.193359375,
+      "cold": {
+        "accuracy": 0.20265458077047588,
+        "correct": 626,
+        "total": 3089,
+        "wilson95": [
+          0.18885231889200352,
+          0.2171954774601408
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.19403714565004887,
+        "correct": 397,
+        "total": 2046,
+        "wilson95": [
+          0.1774815538157834,
+          0.2117395029578974
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.003189792663476874,
+        "correct": 2,
+        "total": 627,
+        "wilson95": [
+          0.0008751924863484306,
+          0.011554965219762204
+        ]
+      },
+      "correct": 792,
+      "hot": {
+        "accuracy": 0.16484607745779542,
+        "correct": 166,
+        "total": 1007,
+        "wilson95": [
+          0.14321099854460648,
+          0.18902849944007863
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.1926829268292683,
+        "correct": 395,
+        "total": 2050,
+        "wilson95": [
+          0.17619082098388567,
+          0.21032463054298833
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.22773133467858173,
+        "correct": 790,
+        "total": 3469,
+        "wilson95": [
+          0.21408159598619428,
+          0.2419834094570816
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.18155436437511646,
+        0.20573901630049418
+      ]
+    },
+    {
+      "accuracy": 0.39404296875,
+      "cold": {
+        "accuracy": 0.4022875816993464,
+        "correct": 1231,
+        "total": 3060,
+        "wilson95": [
+          0.38504647650360374,
+          0.4197737114736891
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.39747939893359185,
+        "correct": 820,
+        "total": 2063,
+        "wilson95": [
+          0.3765712554691794,
+          0.41876863468313213
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.009966777408637873,
+        "correct": 6,
+        "total": 602,
+        "wilson95": [
+          0.004575643909135216,
+          0.021572218027435534
+        ]
+      },
+      "correct": 1614,
+      "hot": {
+        "accuracy": 0.3696911196911197,
+        "correct": 383,
+        "total": 1036,
+        "wilson95": [
+          0.3408285241648233,
+          0.399516508522936
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.39055582882439743,
+        "correct": 794,
+        "total": 2033,
+        "wilson95": [
+          0.3695738173342218,
+          0.4119506611307592
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.46021751574127073,
+        "correct": 1608,
+        "total": 3494,
+        "wilson95": [
+          0.44374385085630424,
+          0.4767785618165307
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.37918447875442124,
+        0.4091000174344443
+      ]
+    },
+    {
+      "accuracy": 0.684814453125,
+      "cold": {
+        "accuracy": 0.6831910702560735,
+        "correct": 2081,
+        "total": 3046,
+        "wilson95": [
+          0.6664474943640423,
+          0.6994731657975951
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.6832023575638507,
+        "correct": 1391,
+        "total": 2036,
+        "wilson95": [
+          0.6626653668597865,
+          0.7030493296300523
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.054380664652567974,
+        "correct": 36,
+        "total": 662,
+        "wilson95": [
+          0.039536416687633025,
+          0.07436676223880513
+        ]
+      },
+      "correct": 2805,
+      "hot": {
+        "accuracy": 0.6895238095238095,
+        "correct": 724,
+        "total": 1050,
+        "wilson95": [
+          0.6608893807879326,
+          0.7167765353408404
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.6864077669902913,
+        "correct": 1414,
+        "total": 2060,
+        "wilson95": [
+          0.6660415026675911,
+          0.7060801042114785
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8063482818870122,
+        "correct": 2769,
+        "total": 3434,
+        "wilson95": [
+          0.7927923120755196,
+          0.8192196219249939
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.6704190999577833,
+        0.6988634723579514
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 3060,
+        "total": 3060,
+        "wilson95": [
+          0.9987461953001403,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 2033,
+        "total": 2033,
+        "wilson95": [
+          0.9981140118667269,
+          0.9999999999999998
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 664,
+        "total": 664,
+        "wilson95": [
+          0.9942479479673552,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 1036,
+        "total": 1036,
+        "wilson95": [
+          0.9963057264277086,
+          1.0
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2063,
+        "total": 2063,
+        "wilson95": [
+          0.9981413867985375,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3432,
+        "total": 3432,
+        "wilson95": [
+          0.9988819452623949,
+          1.0
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.051025390625,
+      "cold": {
+        "accuracy": 0.05229387231312159,
+        "correct": 163,
+        "total": 3117,
+        "wilson95": [
+          0.04501511684659054,
+          0.06067479504830425
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.04720194647201947,
+        "correct": 97,
+        "total": 2055,
+        "wilson95": [
+          0.038847461903076634,
+          0.057246124114963735
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0015552099533437014,
+        "correct": 1,
+        "total": 643,
+        "wilson95": [
+          0.0002745855173360741,
+          0.008756157242016633
+        ]
+      },
+      "correct": 209,
+      "hot": {
+        "accuracy": 0.04698672114402452,
+        "correct": 46,
+        "total": 979,
+        "wilson95": [
+          0.035409873016180454,
+          0.06210479525564208
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.054875061244487995,
+        "correct": 112,
+        "total": 2041,
+        "wilson95": [
+          0.04580516449678547,
+          0.06561738996965977
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.06023747465971619,
+        "correct": 208,
+        "total": 3453,
+        "wilson95": [
+          0.052779708014158294,
+          0.06867262464905953
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.04469721025882503,
+        0.058194929122104944
+      ]
+    },
+    {
+      "accuracy": 0.093505859375,
+      "cold": {
+        "accuracy": 0.09536166072007785,
+        "correct": 294,
+        "total": 3083,
+        "wilson95": [
+          0.08549166314277844,
+          0.10623877287605198
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.08647342995169083,
+        "correct": 179,
+        "total": 2070,
+        "wilson95": [
+          0.07511862324842092,
+          0.09936022000243111
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0033277870216306157,
+        "correct": 2,
+        "total": 601,
+        "wilson95": [
+          0.0009130741030012176,
+          0.012051412220378827
+        ]
+      },
+      "correct": 383,
+      "hot": {
+        "accuracy": 0.087857847976308,
+        "correct": 89,
+        "total": 1013,
+        "wilson95": [
+          0.07194557783754979,
+          0.10688412785874338
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.10069101678183613,
+        "correct": 204,
+        "total": 2026,
+        "wilson95": [
+          0.08833409201851733,
+          0.114559319696488
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.10901287553648069,
+        "correct": 381,
+        "total": 3495,
+        "wilson95": [
+          0.09910655438288593,
+          0.11977774427259691
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.08496677854948931,
+        0.10280669185249458
+      ]
+    },
+    {
+      "accuracy": 0.18408203125,
+      "cold": {
+        "accuracy": 0.18623883559378102,
+        "correct": 563,
+        "total": 3023,
+        "wilson95": [
+          0.17276258889833312,
+          0.20051149043217087
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.18601262748907235,
+        "correct": 383,
+        "total": 2059,
+        "wilson95": [
+          0.1697954418480947,
+          0.20339923849384722
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.0016339869281045752,
+        "correct": 1,
+        "total": 612,
+        "wilson95": [
+          0.00028849707053355596,
+          0.009196831883902589
+        ]
+      },
+      "correct": 754,
+      "hot": {
+        "accuracy": 0.17800559179869524,
+        "correct": 191,
+        "total": 1073,
+        "wilson95": [
+          0.15627869857928608,
+          0.20202981161055136
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.18213058419243985,
+        "correct": 371,
+        "total": 2037,
+        "wilson95": [
+          0.16597353975874973,
+          0.19948427451540784
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.2161308840413318,
+        "correct": 753,
+        "total": 3484,
+        "wilson95": [
+          0.20277998061565983,
+          0.2301070862555506
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.1725113747345964,
+        0.19624470376400246
+      ]
+    },
+    {
+      "accuracy": 0.39013671875,
+      "cold": {
+        "accuracy": 0.39410009943652635,
+        "correct": 1189,
+        "total": 3017,
+        "wilson95": [
+          0.3768086430108642,
+          0.4116608914845146
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.3898305084745763,
+        "correct": 782,
+        "total": 2006,
+        "wilson95": [
+          0.36871792012502996,
+          0.4113642360768078
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.009523809523809525,
+        "correct": 6,
+        "total": 630,
+        "wilson95": [
+          0.004371950308454775,
+          0.0206208276176977
+        ]
+      },
+      "correct": 1598,
+      "hot": {
+        "accuracy": 0.3790546802594995,
+        "correct": 409,
+        "total": 1079,
+        "wilson95": [
+          0.3505841890221446,
+          0.4083832961309902
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.39043062200956935,
+        "correct": 816,
+        "total": 2090,
+        "wilson95": [
+          0.36973484259001455,
+          0.4115284435720822
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4593190998268898,
+        "correct": 1592,
+        "total": 3466,
+        "wilson95": [
+          0.4427826823496949,
+          0.4759455928909138
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.3753082922924104,
+        0.40517102403245014
+      ]
+    },
+    {
+      "accuracy": 0.717529296875,
+      "cold": {
+        "accuracy": 0.7190302225174361,
+        "correct": 2165,
+        "total": 3011,
+        "wilson95": [
+          0.7027044680019418,
+          0.7347978079936753
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7154228855721393,
+        "correct": 1438,
+        "total": 2010,
+        "wilson95": [
+          0.6953008428528981,
+          0.73472307795124
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.06141732283464567,
+        "correct": 39,
+        "total": 635,
+        "wilson95": [
+          0.045250723947141885,
+          0.08285846134551905
+        ]
+      },
+      "correct": 2939,
+      "hot": {
+        "accuracy": 0.7133640552995392,
+        "correct": 774,
+        "total": 1085,
+        "wilson95": [
+          0.685741949341433,
+          0.7394806542334416
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.7195589645254075,
+        "correct": 1501,
+        "total": 2086,
+        "wilson95": [
+          0.6998916351660421,
+          0.738419125745411
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8379081190407397,
+        "correct": 2900,
+        "total": 3461,
+        "wilson95": [
+          0.8252566146379405,
+          0.8498103481073362
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "uniform",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.7035432758096919,
+        0.7311076778670843
+      ]
+    },
+    {
+      "accuracy": 0.623291015625,
+      "cold": {
+        "accuracy": 0.2719583604424203,
+        "correct": 418,
+        "total": 1537,
+        "wilson95": [
+          0.2503019504552611,
+          0.294751827798784
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.5428759894459103,
+        "correct": 823,
+        "total": 1516,
+        "wilson95": [
+          0.517722658449338,
+          0.5678125789568533
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.3369713506139154,
+        "correct": 247,
+        "total": 733,
+        "wilson95": [
+          0.30368169389748945,
+          0.37196087868180516
+        ]
+      },
+      "correct": 2553,
+      "hot": {
+        "accuracy": 0.8343102774521297,
+        "correct": 2135,
+        "total": 2559,
+        "wilson95": [
+          0.8194058847581384,
+          0.8482124706852475
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.6705426356589147,
+        "correct": 1730,
+        "total": 2580,
+        "wilson95": [
+          0.6521644008396936,
+          0.6884137708572826
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.6856972940826643,
+        "correct": 2306,
+        "total": 3363,
+        "wilson95": [
+          0.6698028696242545,
+          0.7011679691504017
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.6083425918334464,
+        0.6380083976242101
+      ]
+    },
+    {
+      "accuracy": 0.826416015625,
+      "cold": {
+        "accuracy": 0.6134122287968442,
+        "correct": 933,
+        "total": 1521,
+        "wilson95": [
+          0.5886828857502878,
+          0.6375701440347376
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7752043596730245,
+        "correct": 1138,
+        "total": 1468,
+        "wilson95": [
+          0.7531474912346351,
+          0.7958246790746629
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.576662143826323,
+        "correct": 425,
+        "total": 737,
+        "wilson95": [
+          0.5406837383672164,
+          0.6118455223195151
+        ]
+      },
+      "correct": 3385,
+      "hot": {
+        "accuracy": 0.9522330097087378,
+        "correct": 2452,
+        "total": 2575,
+        "wilson95": [
+          0.943300486132781,
+          0.959818234885863
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.8550228310502284,
+        "correct": 2247,
+        "total": 2628,
+        "wilson95": [
+          0.8410435869167436,
+          0.867965686322739
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8812146472164335,
+        "correct": 2960,
+        "total": 3359,
+        "wilson95": [
+          0.8698355485923813,
+          0.8917228035810544
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.8145125260979643,
+        0.83770781628795
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1564,
+        "total": 1564,
+        "wilson95": [
+          0.997549842301285,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1546,
+        "total": 1546,
+        "wilson95": [
+          0.997521385946394,
+          0.9999999999999999
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 766,
+        "total": 766,
+        "wilson95": [
+          0.9950100650248445,
+          0.9999999999999999
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2532,
+        "total": 2532,
+        "wilson95": [
+          0.9984851344679565,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2550,
+        "total": 2550,
+        "wilson95": [
+          0.9984958115518776,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3330,
+        "total": 3330,
+        "wilson95": [
+          0.9988477380018985,
+          1.0
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1599,
+        "total": 1599,
+        "wilson95": [
+          0.9976033444857855,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1489,
+        "total": 1489,
+        "wilson95": [
+          0.9974267469609741,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 762,
+        "total": 762,
+        "wilson95": [
+          0.9949840025289183,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2497,
+        "total": 2497,
+        "wilson95": [
+          0.9984639334864092,
+          1.0
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2607,
+        "total": 2607,
+        "wilson95": [
+          0.9985286510570314,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3334,
+        "total": 3334,
+        "wilson95": [
+          0.9988491188487869,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1586,
+        "total": 1586,
+        "wilson95": [
+          0.9975837472350586,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1482,
+        "total": 1482,
+        "wilson95": [
+          0.9974146240180005,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 763,
+        "total": 763,
+        "wilson95": [
+          0.9949905436430082,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2510,
+        "total": 2510,
+        "wilson95": [
+          0.9984718770520651,
+          1.0
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2614,
+        "total": 2614,
+        "wilson95": [
+          0.9985325853833696,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3333,
+        "total": 3333,
+        "wilson95": [
+          0.9988487739474287,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.517822265625,
+      "cold": {
+        "accuracy": 0.08490566037735849,
+        "correct": 108,
+        "total": 1272,
+        "wilson95": [
+          0.07080944508443687,
+          0.10150150883604586
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.4284797947402181,
+        "correct": 668,
+        "total": 1559,
+        "wilson95": [
+          0.40412077851172795,
+          0.453190403795738
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.26222222222222225,
+        "correct": 177,
+        "total": 675,
+        "wilson95": [
+          0.23045311305582594,
+          0.29668242672447587
+        ]
+      },
+      "correct": 2121,
+      "hot": {
+        "accuracy": 0.7128186968838527,
+        "correct": 2013,
+        "total": 2824,
+        "wilson95": [
+          0.6958512313312593,
+          0.7292079586918174
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.5727236893969255,
+        "correct": 1453,
+        "total": 2537,
+        "wilson95": [
+          0.5533786867396059,
+          0.5918487924165582
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.5682548962291728,
+        "correct": 1944,
+        "total": 3421,
+        "wilson95": [
+          0.5515894309884517,
+          0.5847672458431838
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.5025102399709076,
+        0.533100893158615
+      ]
+    },
+    {
+      "accuracy": 0.689697265625,
+      "cold": {
+        "accuracy": 0.2735177865612648,
+        "correct": 346,
+        "total": 1265,
+        "wilson95": [
+          0.24966658926050267,
+          0.29874034840957764
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.6243025418474891,
+        "correct": 1007,
+        "total": 1613,
+        "wilson95": [
+          0.6003988935658974,
+          0.6476155285113822
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.4663923182441701,
+        "correct": 340,
+        "total": 729,
+        "wilson95": [
+          0.4304495472971661,
+          0.5026874233119313
+        ]
+      },
+      "correct": 2825,
+      "hot": {
+        "accuracy": 0.8756623101377605,
+        "correct": 2479,
+        "total": 2831,
+        "wilson95": [
+          0.862996028717626,
+          0.8873104807987265
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.7321788159484495,
+        "correct": 1818,
+        "total": 2483,
+        "wilson95": [
+          0.7144122302918663,
+          0.749228101869386
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.738045738045738,
+        "correct": 2485,
+        "total": 3367,
+        "wilson95": [
+          0.7229285820638822,
+          0.7526203334169477
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.6753576464796728,
+        0.703681400666068
+      ]
+    },
+    {
+      "accuracy": 0.866455078125,
+      "cold": {
+        "accuracy": 0.6140350877192983,
+        "correct": 770,
+        "total": 1254,
+        "wilson95": [
+          0.5867812638825536,
+          0.6405923832447586
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.8218673218673219,
+        "correct": 1338,
+        "total": 1628,
+        "wilson95": [
+          0.8025297334306373,
+          0.8396895179158587
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.7050938337801609,
+        "correct": 526,
+        "total": 746,
+        "wilson95": [
+          0.6713878327002737,
+          0.7366984319365985
+        ]
+      },
+      "correct": 3549,
+      "hot": {
+        "accuracy": 0.9778325123152709,
+        "correct": 2779,
+        "total": 2842,
+        "wilson95": [
+          0.971739988134492,
+          0.9826350321540592
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.8958670988654781,
+        "correct": 2211,
+        "total": 2468,
+        "wilson95": [
+          0.883195429328015,
+          0.9073083438922326
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.9023880597014925,
+        "correct": 3023,
+        "total": 3350,
+        "wilson95": [
+          0.8918721772065632,
+          0.911982159112599
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.8556936478716541,
+        0.8765297881203111
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1245,
+        "total": 1245,
+        "wilson95": [
+          0.9969239819886171,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1617,
+        "total": 1617,
+        "wilson95": [
+          0.9976299601668079,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 734,
+        "total": 734,
+        "wilson95": [
+          0.9947936527898092,
+          0.9999999999999999
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2851,
+        "total": 2851,
+        "wilson95": [
+          0.9986544055506743,
+          1.0
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2479,
+        "total": 2479,
+        "wilson95": [
+          0.998452797375746,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3362,
+        "total": 3362,
+        "wilson95": [
+          0.9988586928803117,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1237,
+        "total": 1237,
+        "wilson95": [
+          0.9969041501689143,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1611,
+        "total": 1611,
+        "wilson95": [
+          0.9976211542007971,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 728,
+        "total": 728,
+        "wilson95": [
+          0.9947509685678584,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2859,
+        "total": 2859,
+        "wilson95": [
+          0.9986581657154439,
+          1.0
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2485,
+        "total": 2485,
+        "wilson95": [
+          0.9984565273102954,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3368,
+        "total": 3368,
+        "wilson95": [
+          0.9988607237713846,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.460693359375,
+      "cold": {
+        "accuracy": 0.002098635886673662,
+        "correct": 2,
+        "total": 953,
+        "wilson95": [
+          0.0005757104401366404,
+          0.0076194390785294
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.3758348512446873,
+        "correct": 619,
+        "total": 1647,
+        "wilson95": [
+          0.352758182082263,
+          0.39948937760031494
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.18900343642611683,
+        "correct": 110,
+        "total": 582,
+        "wilson95": [
+          0.15927402513874378,
+          0.2228113589706186
+        ]
+      },
+      "correct": 1887,
+      "hot": {
+        "accuracy": 0.5997454661151765,
+        "correct": 1885,
+        "total": 3143,
+        "wilson95": [
+          0.5825049055495277,
+          0.6167425011612551
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.5177623519804002,
+        "correct": 1268,
+        "total": 2449,
+        "wilson95": [
+          0.4979598489916647,
+          0.5375092188060678
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.5056915196357428,
+        "correct": 1777,
+        "total": 3514,
+        "wilson95": [
+          0.48916371393533775,
+          0.522206895135092
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.44547246725871115,
+        0.475987910359739
+      ]
+    },
+    {
+      "accuracy": 0.623291015625,
+      "cold": {
+        "accuracy": 0.052406417112299465,
+        "correct": 49,
+        "total": 935,
+        "wilson95": [
+          0.03986606124239982,
+          0.06860961147514306
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.5465184318314804,
+        "correct": 934,
+        "total": 1709,
+        "wilson95": [
+          0.522837784737499,
+          0.5699904213881706
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.44901315789473684,
+        "correct": 273,
+        "total": 608,
+        "wilson95": [
+          0.40991995126062053,
+          0.48874660834208583
+        ]
+      },
+      "correct": 2553,
+      "hot": {
+        "accuracy": 0.7921543815248339,
+        "correct": 2504,
+        "total": 3161,
+        "wilson95": [
+          0.7776586387597636,
+          0.8059408950659347
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.6782572266443234,
+        "correct": 1619,
+        "total": 2387,
+        "wilson95": [
+          0.6592435160526399,
+          0.6966981114694811
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.6536697247706422,
+        "correct": 2280,
+        "total": 3488,
+        "wilson95": [
+          0.6377183737480037,
+          0.6692829642686566
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.6083425918334464,
+        0.6380083976242101
+      ]
+    },
+    {
+      "accuracy": 0.7587890625,
+      "cold": {
+        "accuracy": 0.23823823823823823,
+        "correct": 238,
+        "total": 999,
+        "wilson95": [
+          0.21285569341850819,
+          0.2656261788656418
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7026239067055393,
+        "correct": 1205,
+        "total": 1715,
+        "wilson95": [
+          0.6805568182965059,
+          0.7237853020505579
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.580267558528428,
+        "correct": 347,
+        "total": 598,
+        "wilson95": [
+          0.5403236491538898,
+          0.6191867976473518
+        ]
+      },
+      "correct": 3108,
+      "hot": {
+        "accuracy": 0.926703261220536,
+        "correct": 2870,
+        "total": 3097,
+        "wilson95": [
+          0.9169862213507022,
+          0.9353630635447535
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.7992440151196976,
+        "correct": 1903,
+        "total": 2381,
+        "wilson95": [
+          0.7826782451600529,
+          0.8148457515523588
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.789308176100629,
+        "correct": 2761,
+        "total": 3498,
+        "wilson95": [
+          0.7754804523318444,
+          0.8025011678531018
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.7454487929365452,
+        0.7716443730537834
+      ]
+    },
+    {
+      "accuracy": 0.896728515625,
+      "cold": {
+        "accuracy": 0.6056622851365016,
+        "correct": 599,
+        "total": 989,
+        "wilson95": [
+          0.5748518337569917,
+          0.6356550887160608
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.8877988963825874,
+        "correct": 1448,
+        "total": 1631,
+        "wilson95": [
+          0.8715614466863771,
+          0.9022138898606405
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.7744610281923715,
+        "correct": 467,
+        "total": 603,
+        "wilson95": [
+          0.7394260116225245,
+          0.8060212303033142
+        ]
+      },
+      "correct": 3673,
+      "hot": {
+        "accuracy": 0.9893788220148053,
+        "correct": 3074,
+        "total": 3107,
+        "wilson95": [
+          0.9851218943649722,
+          0.9924271193841339
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.9026369168356998,
+        "correct": 2225,
+        "total": 2465,
+        "wilson95": [
+          0.8902998657617149,
+          0.9137209809022044
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.9178356713426854,
+        "correct": 3206,
+        "total": 3493,
+        "wilson95": [
+          0.9082631450546664,
+          0.9264901700082445
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.8870343244109669,
+        0.9056792555270368
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 991,
+        "total": 991,
+        "wilson95": [
+          0.9961386221024121,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1650,
+        "total": 1650,
+        "wilson95": [
+          0.9976772508633123,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 619,
+        "total": 619,
+        "wilson95": [
+          0.9938323649360663,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 3105,
+        "total": 3105,
+        "wilson95": [
+          0.9987643439295386,
+          1.0
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2446,
+        "total": 2446,
+        "wilson95": [
+          0.9984319561550147,
+          1.0000000000000002
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3477,
+        "total": 3477,
+        "wilson95": [
+          0.9988963993717787,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.41796875,
+      "cold": {
+        "accuracy": 0.003978779840848806,
+        "correct": 3,
+        "total": 754,
+        "wilson95": [
+          0.0013540471360077196,
+          0.011632123924109254
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.33252720677146314,
+        "correct": 550,
+        "total": 1654,
+        "wilson95": [
+          0.3102338297542048,
+          0.35559670123391024
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.21483771251931993,
+        "correct": 139,
+        "total": 647,
+        "wilson95": [
+          0.1849226174259751,
+          0.24811903196646323
+        ]
+      },
+      "correct": 1712,
+      "hot": {
+        "accuracy": 0.5113704368641532,
+        "correct": 1709,
+        "total": 3342,
+        "wilson95": [
+          0.4944197296082289,
+          0.5282950346552242
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.47583947583947583,
+        "correct": 1162,
+        "total": 2442,
+        "wilson95": [
+          0.4560850832661542,
+          0.49566976185087325
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4560742244128733,
+        "correct": 1573,
+        "total": 3449,
+        "wilson95": [
+          0.43951004927490794,
+          0.4727361387955144
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.40294775659658033,
+        0.43314346625931555
+      ]
+    },
+    {
+      "accuracy": 0.554443359375,
+      "cold": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 718,
+        "wilson95": [
+          0.0,
+          0.0053217486662100215
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.45240963855421684,
+        "correct": 751,
+        "total": 1660,
+        "wilson95": [
+          0.4286034055711564,
+          0.47643562374117476
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.4125984251968504,
+        "correct": 262,
+        "total": 635,
+        "wilson95": [
+          0.37494503060700923,
+          0.4513029398911692
+        ]
+      },
+      "correct": 2271,
+      "hot": {
+        "accuracy": 0.672291296625222,
+        "correct": 2271,
+        "total": 3378,
+        "wilson95": [
+          0.656274826378895,
+          0.6879163529456102
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.6239737274220033,
+        "correct": 1520,
+        "total": 2436,
+        "wilson95": [
+          0.6045572710750371,
+          0.6429997977731763
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.5804680728113262,
+        "correct": 2009,
+        "total": 3461,
+        "wilson95": [
+          0.5639470828718615,
+          0.5968106333526443
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.5391782195758451,
+        0.5696064747787241
+      ]
+    },
+    {
+      "accuracy": 0.691650390625,
+      "cold": {
+        "accuracy": 0.025537634408602152,
+        "correct": 19,
+        "total": 744,
+        "wilson95": [
+          0.016408931678279948,
+          0.03954070621245142
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.6223818073010173,
+        "correct": 1040,
+        "total": 1671,
+        "wilson95": [
+          0.5988818759326993,
+          0.6453203426390748
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.5315161839863713,
+        "correct": 312,
+        "total": 587,
+        "wilson95": [
+          0.4910744435856832,
+          0.5715481084502744
+        ]
+      },
+      "correct": 2833,
+      "hot": {
+        "accuracy": 0.8394988066825776,
+        "correct": 2814,
+        "total": 3352,
+        "wilson95": [
+          0.8266848169456169,
+          0.8515355423677309
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.739381443298969,
+        "correct": 1793,
+        "total": 2425,
+        "wilson95": [
+          0.7215410957655659,
+          0.7564645788261857
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.7184383015104018,
+        "correct": 2521,
+        "total": 3509,
+        "wilson95": [
+          0.7033244502984108,
+          0.7330744074270521
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.6773335791505196,
+        0.7056080579272236
+      ]
+    },
+    {
+      "accuracy": 0.80712890625,
+      "cold": {
+        "accuracy": 0.22938144329896906,
+        "correct": 178,
+        "total": 776,
+        "wilson95": [
+          0.20117612729559237,
+          0.26025286541897813
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7744581136496778,
+        "correct": 1322,
+        "total": 1707,
+        "wilson95": [
+          0.7540281393462392,
+          0.7936555721800681
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.6968253968253968,
+        "correct": 439,
+        "total": 630,
+        "wilson95": [
+          0.6598305109436164,
+          0.7314345231572155
+        ]
+      },
+      "correct": 3306,
+      "hot": {
+        "accuracy": 0.9421686746987952,
+        "correct": 3128,
+        "total": 3320,
+        "wilson95": [
+          0.9337057185123333,
+          0.9496095768693239
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.8304730012557555,
+        "correct": 1984,
+        "total": 2389,
+        "wilson95": [
+          0.8148991450848845,
+          0.8449857771607397
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8271783035199076,
+        "correct": 2867,
+        "total": 3466,
+        "wilson95": [
+          0.8142305428711818,
+          0.839401626470305
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.7947604129980961,
+        0.8189218538092939
+      ]
+    },
+    {
+      "accuracy": 0.923828125,
+      "cold": {
+        "accuracy": 0.6402048655569782,
+        "correct": 500,
+        "total": 781,
+        "wilson95": [
+          0.6059344291169256,
+          0.6731028178820672
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.9135514018691588,
+        "correct": 1564,
+        "total": 1712,
+        "wilson95": [
+          0.8992962999061637,
+          0.9259547701858385
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.8240887480190174,
+        "correct": 520,
+        "total": 631,
+        "wilson95": [
+          0.7924452579747459,
+          0.8518100821849439
+        ]
+      },
+      "correct": 3784,
+      "hot": {
+        "accuracy": 0.9906485671191554,
+        "correct": 3284,
+        "total": 3315,
+        "wilson95": [
+          0.9867572085742489,
+          0.9934041038482824
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.9312080536912751,
+        "correct": 2220,
+        "total": 2384,
+        "wilson95": [
+          0.9203389994314108,
+          0.9406896892217362
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.941991341991342,
+        "correct": 3264,
+        "total": 3465,
+        "wilson95": [
+          0.9337074536807515,
+          0.9492962916219618
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.0,
+      "wilson95": [
+        0.9153012757420427,
+        0.9315607395024954
+      ]
+    },
+    {
+      "accuracy": 0.599609375,
+      "cold": {
+        "accuracy": 0.2725490196078431,
+        "correct": 417,
+        "total": 1530,
+        "wilson95": [
+          0.25082795409236897,
+          0.2954093731114967
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.5472972972972973,
+        "correct": 810,
+        "total": 1480,
+        "wilson95": [
+          0.5218482091848885,
+          0.5725014931824163
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.2936708860759494,
+        "correct": 232,
+        "total": 790,
+        "wilson95": [
+          0.2629714088746765,
+          0.32636724763200775
+        ]
+      },
+      "correct": 2456,
+      "hot": {
+        "accuracy": 0.7946219797349962,
+        "correct": 2039,
+        "total": 2566,
+        "wilson95": [
+          0.7785564011695205,
+          0.8098067427163518
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.6292048929663608,
+        "correct": 1646,
+        "total": 2616,
+        "wilson95": [
+          0.6105186486670119,
+          0.6475122324475641
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.6727162734422263,
+        "correct": 2224,
+        "total": 3306,
+        "wilson95": [
+          0.6565291900708963,
+          0.6885024418692325
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.5845174984376891,
+        0.6145145880944374
+      ]
+    },
+    {
+      "accuracy": 0.821533203125,
+      "cold": {
+        "accuracy": 0.610586011342155,
+        "correct": 969,
+        "total": 1587,
+        "wilson95": [
+          0.5863559965360854,
+          0.6342819545644596
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7723954877239548,
+        "correct": 1164,
+        "total": 1507,
+        "wilson95": [
+          0.7505494150732829,
+          0.7928563772464762
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.5455904334828101,
+        "correct": 365,
+        "total": 669,
+        "wilson95": [
+          0.5077066415383813,
+          0.5829536458150706
+        ]
+      },
+      "correct": 3365,
+      "hot": {
+        "accuracy": 0.9549621363092866,
+        "correct": 2396,
+        "total": 2509,
+        "wilson95": [
+          0.9461282168974815,
+          0.9624050262110745
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 0.8501351873310158,
+        "correct": 2201,
+        "total": 2589,
+        "wilson95": [
+          0.8358676874197162,
+          0.8633651923355348
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8754012255617157,
+        "correct": 3000,
+        "total": 3427,
+        "wilson95": [
+          0.8639217348531972,
+          0.8860400546619714
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.8095073008667827,
+        0.8329565666891255
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1566,
+        "total": 1566,
+        "wilson95": [
+          0.9975529638365009,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1526,
+        "total": 1526,
+        "wilson95": [
+          0.9974889824049771,
+          0.9999999999999998
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 744,
+        "total": 744,
+        "wilson95": [
+          0.9948632711179829,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2530,
+        "total": 2530,
+        "wilson95": [
+          0.9984839387613137,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2570,
+        "total": 2570,
+        "wilson95": [
+          0.9985074998277266,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3352,
+        "total": 3352,
+        "wilson95": [
+          0.9988552919237003,
+          1.0000000000000002
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1589,
+        "total": 1589,
+        "wilson95": [
+          0.997588298069829,
+          0.9999999999999998
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1483,
+        "total": 1483,
+        "wilson95": [
+          0.9974163628557,
+          0.9999999999999998
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 743,
+        "total": 743,
+        "wilson95": [
+          0.994856393180475,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2507,
+        "total": 2507,
+        "wilson95": [
+          0.9984700512223904,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2613,
+        "total": 2613,
+        "wilson95": [
+          0.9985320246254333,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3353,
+        "total": 3353,
+        "wilson95": [
+          0.998855632931189,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1603,
+        "total": 1603,
+        "wilson95": [
+          0.9976093106139338,
+          1.0000000000000002
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1474,
+        "total": 1474,
+        "wilson95": [
+          0.9974006286007435,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 739,
+        "total": 739,
+        "wilson95": [
+          0.9948286962512933,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2493,
+        "total": 2493,
+        "wilson95": [
+          0.9984614726709525,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 8,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2622,
+        "total": 2622,
+        "wilson95": [
+          0.9985370560710017,
+          1.0000000000000002
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3357,
+        "total": 3357,
+        "wilson95": [
+          0.9988569949318461,
+          1.0
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.527099609375,
+      "cold": {
+        "accuracy": 0.09448160535117058,
+        "correct": 113,
+        "total": 1196,
+        "wilson95": [
+          0.07917868475500836,
+          0.1123811727003273
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.44465058750773034,
+        "correct": 719,
+        "total": 1617,
+        "wilson95": [
+          0.4205894877838129,
+          0.46897404785634866
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.25770308123249297,
+        "correct": 184,
+        "total": 714,
+        "wilson95": [
+          0.2269784216651048,
+          0.2910209976378341
+        ]
+      },
+      "correct": 2159,
+      "hot": {
+        "accuracy": 0.7055172413793104,
+        "correct": 2046,
+        "total": 2900,
+        "wilson95": [
+          0.6886646297518072,
+          0.7218261001670688
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.5808793868495361,
+        "correct": 1440,
+        "total": 2479,
+        "wilson95": [
+          0.5613456095086995,
+          0.6001628905912093
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.5839739798935542,
+        "correct": 1975,
+        "total": 3382,
+        "wilson95": [
+          0.5672759979863955,
+          0.6004814138440562
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.5117916494515378,
+        0.5423567858549967
+      ]
+    },
+    {
+      "accuracy": 0.695556640625,
+      "cold": {
+        "accuracy": 0.2839707078925956,
+        "correct": 349,
+        "total": 1229,
+        "wilson95": [
+          0.2594640647230708,
+          0.30982361926839574
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.6313065976714101,
+        "correct": 976,
+        "total": 1546,
+        "wilson95": [
+          0.6069598028561495,
+          0.6550024757300316
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.4725925925925926,
+        "correct": 319,
+        "total": 675,
+        "wilson95": [
+          0.43519126724461393,
+          0.510304106499533
+        ]
+      },
+      "correct": 2849,
+      "hot": {
+        "accuracy": 0.8719916288803627,
+        "correct": 2500,
+        "total": 2867,
+        "wilson95": [
+          0.8592623962375566,
+          0.8837253411891594
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.7345098039215686,
+        "correct": 1873,
+        "total": 2550,
+        "wilson95": [
+          0.7170267059316342,
+          0.7512874080354426
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.7395498392282959,
+        "correct": 2530,
+        "total": 3421,
+        "wilson95": [
+          0.7245801638720358,
+          0.7539821344728258
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.6812863342058514,
+        0.7094604827358969
+      ]
+    },
+    {
+      "accuracy": 0.876708984375,
+      "cold": {
+        "accuracy": 0.6534733441033925,
+        "correct": 809,
+        "total": 1238,
+        "wilson95": [
+          0.6265277921871825,
+          0.6794694003698
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.8477029578351164,
+        "correct": 1347,
+        "total": 1589,
+        "wilson95": [
+          0.8291991735613488,
+          0.8645296303198099
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.7351190476190477,
+        "correct": 494,
+        "total": 672,
+        "wilson95": [
+          0.7004875638577276,
+          0.7670777147675326
+        ]
+      },
+      "correct": 3591,
+      "hot": {
+        "accuracy": 0.9734079776067179,
+        "correct": 2782,
+        "total": 2858,
+        "wilson95": [
+          0.966843846974412,
+          0.9787011941946703
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 0.8950937375349023,
+        "correct": 2244,
+        "total": 2507,
+        "wilson95": [
+          0.8824880554986075,
+          0.9064904732096316
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.9044976635514018,
+        "correct": 3097,
+        "total": 3424,
+        "wilson95": [
+          0.8941949774486784,
+          0.9138937376440504
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.8662861211444994,
+        0.8864259119904789
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1249,
+        "total": 1249,
+        "wilson95": [
+          0.9969338029216323,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1596,
+        "total": 1596,
+        "wilson95": [
+          0.9975988503113767,
+          1.0000000000000002
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 655,
+        "total": 655,
+        "wilson95": [
+          0.9941693729663428,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2847,
+        "total": 2847,
+        "wilson95": [
+          0.9986525175544895,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2500,
+        "total": 2500,
+        "wilson95": [
+          0.9984657739382173,
+          0.9999999999999999
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3441,
+        "total": 3441,
+        "wilson95": [
+          0.9988848662945409,
+          1.0
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 1253,
+        "total": 1253,
+        "wilson95": [
+          0.9969435613428137,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1588,
+        "total": 1588,
+        "wilson95": [
+          0.997586783030805,
+          0.9999999999999998
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 662,
+        "total": 662,
+        "wilson95": [
+          0.9942306704249119,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 2843,
+        "total": 2843,
+        "wilson95": [
+          0.9986506242527867,
+          1.0
+        ]
+      },
+      "n_policies": 16,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2508,
+        "total": 2508,
+        "wilson95": [
+          0.9984706603168746,
+          1.0
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3434,
+        "total": 3434,
+        "wilson95": [
+          0.9988825957023589,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.44287109375,
+      "cold": {
+        "accuracy": 0.007021063189568706,
+        "correct": 7,
+        "total": 997,
+        "wilson95": [
+          0.0034050957711140983,
+          0.014421362818757841
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.3507692307692308,
+        "correct": 570,
+        "total": 1625,
+        "wilson95": [
+          0.32794354520603924,
+          0.37429880786425457
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.23316912972085385,
+        "correct": 142,
+        "total": 609,
+        "wilson95": [
+          0.20132195660475025,
+          0.2683614414058781
+        ]
+      },
+      "correct": 1814,
+      "hot": {
+        "accuracy": 0.5830913197805744,
+        "correct": 1807,
+        "total": 3099,
+        "wilson95": [
+          0.5656398387051118,
+          0.6003370591914818
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.5034399028733306,
+        "correct": 1244,
+        "total": 2471,
+        "wilson95": [
+          0.4837360187679215,
+          0.5231331081167158
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.4794952681388013,
+        "correct": 1672,
+        "total": 3487,
+        "wilson95": [
+          0.4629453358932716,
+          0.4960903288062336
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.4277197153786163,
+        0.45812952911031113
+      ]
+    },
+    {
+      "accuracy": 0.61376953125,
+      "cold": {
+        "accuracy": 0.04338842975206612,
+        "correct": 42,
+        "total": 968,
+        "wilson95": [
+          0.03225806604882008,
+          0.0581285479646298
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.5206407886629698,
+        "correct": 845,
+        "total": 1623,
+        "wilson95": [
+          0.49631611360249145,
+          0.5448679855835281
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.40476190476190477,
+        "correct": 238,
+        "total": 588,
+        "wilson95": [
+          0.3658303260488063,
+          0.44492980518098
+        ]
+      },
+      "correct": 2514,
+      "hot": {
+        "accuracy": 0.7902813299232737,
+        "correct": 2472,
+        "total": 3128,
+        "wilson95": [
+          0.7756628638475872,
+          0.804187688575913
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.6748887990295188,
+        "correct": 1669,
+        "total": 2473,
+        "wilson95": [
+          0.6561683353148338,
+          0.6930667749581729
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.6488027366020525,
+        "correct": 2276,
+        "total": 3508,
+        "wilson95": [
+          0.6328516583578422,
+          0.6644282764688808
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.598758974497399,
+        0.6285668890417454
+      ]
+    },
+    {
+      "accuracy": 0.763671875,
+      "cold": {
+        "accuracy": 0.25416666666666665,
+        "correct": 244,
+        "total": 960,
+        "wilson95": [
+          0.22764211377737245,
+          0.2826507920937711
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7071078431372549,
+        "correct": 1154,
+        "total": 1632,
+        "wilson95": [
+          0.6845627975977273,
+          0.7286801828603788
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.5538461538461539,
+        "correct": 324,
+        "total": 585,
+        "wilson95": [
+          0.5133433153631596,
+          0.5936464338405968
+        ]
+      },
+      "correct": 3128,
+      "hot": {
+        "accuracy": 0.9196428571428571,
+        "correct": 2884,
+        "total": 3136,
+        "wilson95": [
+          0.9096070026662982,
+          0.9286518822229289
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.8011363636363636,
+        "correct": 1974,
+        "total": 2464,
+        "wilson95": [
+          0.7849128203048756,
+          0.8164224051391278
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.7986328681287382,
+        "correct": 2804,
+        "total": 3511,
+        "wilson95": [
+          0.7850449229974628,
+          0.811568046482984
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.7504185126757205,
+        0.7764311281446142
+      ]
+    },
+    {
+      "accuracy": 0.894287109375,
+      "cold": {
+        "accuracy": 0.5847639484978541,
+        "correct": 545,
+        "total": 932,
+        "wilson95": [
+          0.5528433499148219,
+          0.615988665925879
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.8666256914566687,
+        "correct": 1410,
+        "total": 1627,
+        "wilson95": [
+          0.8492391329244986,
+          0.8822850710669126
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.7531847133757962,
+        "correct": 473,
+        "total": 628,
+        "wilson95": [
+          0.7179914918118845,
+          0.7852993188188927
+        ]
+      },
+      "correct": 3663,
+      "hot": {
+        "accuracy": 0.9854614412136536,
+        "correct": 3118,
+        "total": 3164,
+        "wilson95": [
+          0.9806631997636741,
+          0.9890823004242131
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 0.9125151883353585,
+        "correct": 2253,
+        "total": 2469,
+        "wilson95": [
+          0.9007197575884448,
+          0.9230289678844174
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.919838523644752,
+        "correct": 3190,
+        "total": 3468,
+        "wilson95": [
+          0.9103295753449439,
+          0.9284184016404857
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.8844987461372489,
+        0.9033365963857516
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 944,
+        "total": 944,
+        "wilson95": [
+          0.9959471504596628,
+          1.0
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1638,
+        "total": 1638,
+        "wilson95": [
+          0.9976602742000111,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 627,
+        "total": 627,
+        "wilson95": [
+          0.9939105796440909,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 3152,
+        "total": 3152,
+        "wilson95": [
+          0.998782746576208,
+          1.0
+        ]
+      },
+      "n_policies": 32,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2458,
+        "total": 2458,
+        "wilson95": [
+          0.9984395994279283,
+          1.0000000000000002
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3469,
+        "total": 3469,
+        "wilson95": [
+          0.9988938571293148,
+          0.9999999999999999
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    },
+    {
+      "accuracy": 0.41845703125,
+      "cold": {
+        "accuracy": 0.005594405594405594,
+        "correct": 4,
+        "total": 715,
+        "wilson95": [
+          0.00217764201508571,
+          0.014295334988940749
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.32633473305338934,
+        "correct": 544,
+        "total": 1667,
+        "wilson95": [
+          0.30424850303381135,
+          0.3492195163624352
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.18025078369905956,
+        "correct": 115,
+        "total": 638,
+        "wilson95": [
+          0.1523648837840373,
+          0.21196411928527123
+        ]
+      },
+      "correct": 1714,
+      "hot": {
+        "accuracy": 0.5057675244010648,
+        "correct": 1710,
+        "total": 3381,
+        "wilson95": [
+          0.4889179548404714,
+          0.522604002827108
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.48167970358172085,
+        "correct": 1170,
+        "total": 2429,
+        "wilson95": [
+          0.46185362962665316,
+          0.501563633065367
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.462406015037594,
+        "correct": 1599,
+        "total": 3458,
+        "wilson95": [
+          0.4458390631996324,
+          0.4790563997807632
+        ]
+      },
+      "slot_count": 2,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.40343310447822633,
+        0.43363376586067015
+      ]
+    },
+    {
+      "accuracy": 0.540771484375,
+      "cold": {
+        "accuracy": 0.0038461538461538464,
+        "correct": 3,
+        "total": 780,
+        "wilson95": [
+          0.0013088830969176755,
+          0.011246537020182032
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.45089820359281435,
+        "correct": 753,
+        "total": 1670,
+        "wilson95": [
+          0.4271733501593222,
+          0.4748484338419258
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.34846029173419774,
+        "correct": 215,
+        "total": 617,
+        "wilson95": [
+          0.3119057646676428,
+          0.3868901238105335
+        ]
+      },
+      "correct": 2215,
+      "hot": {
+        "accuracy": 0.6670687575392038,
+        "correct": 2212,
+        "total": 3316,
+        "wilson95": [
+          0.6508435912910968,
+          0.6829072861961656
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.6026380873866447,
+        "correct": 1462,
+        "total": 2426,
+        "wilson95": [
+          0.5830179367322431,
+          0.6219337065908982
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.5748778384593274,
+        "correct": 2000,
+        "total": 3479,
+        "wilson95": [
+          0.5583768296366158,
+          0.5912136717284429
+        ]
+      },
+      "slot_count": 4,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.5254791596733075,
+        0.5559874051572442
+      ]
+    },
+    {
+      "accuracy": 0.681884765625,
+      "cold": {
+        "accuracy": 0.039540816326530615,
+        "correct": 31,
+        "total": 784,
+        "wilson95": [
+          0.027994116200919777,
+          0.055577848797280546
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.6288056206088993,
+        "correct": 1074,
+        "total": 1708,
+        "wilson95": [
+          0.6056284681677001,
+          0.6514046803945043
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.5688225538971807,
+        "correct": 343,
+        "total": 603,
+        "wilson95": [
+          0.5289816989572156,
+          0.6077920807402
+        ]
+      },
+      "correct": 2793,
+      "hot": {
+        "accuracy": 0.8339371980676329,
+        "correct": 2762,
+        "total": 3312,
+        "wilson95": [
+          0.8208779940805384,
+          0.8462226581884986
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.7198492462311558,
+        "correct": 1719,
+        "total": 2388,
+        "wilson95": [
+          0.7014957541149364,
+          0.7374965528909411
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.7014028056112225,
+        "correct": 2450,
+        "total": 3493,
+        "wilson95": [
+          0.68601164705728,
+          0.7163514616421088
+        ]
+      },
+      "slot_count": 8,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.6674568458499386,
+        0.6959718415677922
+      ]
+    },
+    {
+      "accuracy": 0.803955078125,
+      "cold": {
+        "accuracy": 0.24489795918367346,
+        "correct": 192,
+        "total": 784,
+        "wilson95": [
+          0.21608822794373167,
+          0.2761954091743848
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.7784156142365097,
+        "correct": 1356,
+        "total": 1742,
+        "wilson95": [
+          0.758311934169476,
+          0.7972940718049895
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.6912442396313364,
+        "correct": 450,
+        "total": 651,
+        "wilson95": [
+          0.654720868711048,
+          0.7255238403646798
+        ]
+      },
+      "correct": 3293,
+      "hot": {
+        "accuracy": 0.936292270531401,
+        "correct": 3101,
+        "total": 3312,
+        "wilson95": [
+          0.927458557711614,
+          0.9441150792944967
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.8228547153780799,
+        "correct": 1937,
+        "total": 2354,
+        "wilson95": [
+          0.8069092217755199,
+          0.837748201781808
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.8252539912917272,
+        "correct": 2843,
+        "total": 3445,
+        "wilson95": [
+          0.8122126728724796,
+          0.8375707476638455
+        ]
+      },
+      "slot_count": 16,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.7915146488016144,
+        0.8158259093662715
+      ]
+    },
+    {
+      "accuracy": 0.921142578125,
+      "cold": {
+        "accuracy": 0.6278772378516624,
+        "correct": 491,
+        "total": 782,
+        "wilson95": [
+          0.593450676138509,
+          0.6610535851919359
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.901994301994302,
+        "correct": 1583,
+        "total": 1755,
+        "wilson95": [
+          0.8871934812020612,
+          0.915039143531539
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.8271028037383178,
+        "correct": 531,
+        "total": 642,
+        "wilson95": [
+          0.7959275851585361,
+          0.8543868136211885
+        ]
+      },
+      "correct": 3773,
+      "hot": {
+        "accuracy": 0.9903439951719976,
+        "correct": 3282,
+        "total": 3314,
+        "wilson95": [
+          0.9864007263271178,
+          0.993151805141698
+        ]
+      },
+      "n_policies": 64,
+      "rare_context": {
+        "accuracy": 0.9354976505766767,
+        "correct": 2190,
+        "total": 2341,
+        "wilson95": [
+          0.9248160158303028,
+          0.9447523689872735
+        ]
+      },
+      "scope_profile": "nested",
+      "single_rule": {
+        "accuracy": 0.9386218876664737,
+        "correct": 3242,
+        "total": 3454,
+        "wilson95": [
+          0.9301196369496576,
+          0.9461495720595343
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "zipf",
+      "utility_noise": 0.5,
+      "wilson95": [
+        0.9124886341356219,
+        0.9290073199524128
+      ]
+    }
+  ],
+  "checkpoint": "artifacts/model.pt",
+  "conflict_rate": 0.35,
+  "kind": "sweep",
+  "protocol_version": 4,
+  "requested_decisions_per_cell": 4096,
+  "scope_profile": "nested",
+  "seed": 91001,
+  "traffic_profiles": [
+    "uniform",
+    "zipf"
+  ],
+  "utility_noise_levels": [
+    0.0,
+    0.5
+  ]
+}

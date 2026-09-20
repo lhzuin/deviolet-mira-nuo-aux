@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-09-20T15:05:38.916670+00:00",
+  "functional_family": "monotone saturating residual-coverage curve in K/N",
+  "holdout_conflict_rate": 0.2,
+  "holdout_scope_profile": "crossing",
+  "holdout_traffic_profile": "lognormal",
+  "holdout_utility_noise": 1.0,
+  "kind": "prediction_commit",
+  "n_policies": 128,
+  "predicted_k": 64,
+  "protocol_version": 4,
+  "rationale": "At K/N=0.5, uniform accuracy stays near 71-73% while Zipf improves with N; the closest point, N=64 and K=32, reaches 92.1-92.4% on Zipf. Scaling to N=128 gives K=64. Concentrated lognormal traffic should help selection, while sigma=1 noise and crossing scopes add downside, making 64 the conservative smallest estimate.",
+  "sweep_sha256": "9246d5388f70c5ba0820d9dbe8b4d4bd208977c1304b5e17afba6783696bb2ac",
+  "target_accuracy": 0.9
+}
