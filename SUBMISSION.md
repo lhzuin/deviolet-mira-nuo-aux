@@ -160,10 +160,33 @@ Machine-readable commitment: [artifacts/prediction.json](artifacts/prediction.js
 
 ## Holdout
 
-> **To complete after committing the prediction:** Report overall, conflict,
-> single-rule, hot, cold, common-context, and rare-context curves. Report the
-> smallest tested `K` that reaches 90 percent and the absolute prediction error
-> when this value exists.
+Holdout artifact: [artifacts/holdout.json](artifacts/holdout.json)
+
+The holdout uses 128 policies, 20% partial policies, log-normal traffic,
+`sigma=1.0` estimate noise, and unseen crossing scopes. Overall entries include
+their 95% Wilson interval; subgroup entries are point estimates.
+
+| K | Overall [95% CI] | Conflict | Single rule | Hot | Cold | Common context | Rare context |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| 32 | 91.7 [90.9, 92.6] | 87.8 | 92.3 | 93.9 | 28.1 | 86.7 | 93.7 |
+| 48 | 96.0 [95.4, 96.6] | 93.7 | 96.4 | 97.8 | 45.7 | 93.8 | 96.9 |
+| 64 | 98.0 [97.5, 98.4] | 96.3 | 98.2 | 99.2 | 62.5 | 97.2 | 98.3 |
+| 96 | 99.8 [99.6, 99.9] | 100.0 | 99.7 | 100.0 | 93.6 | 99.7 | 99.8 |
+| 128 | 100.0 [99.9, 100.0] | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 | 100.0 |
+
+The smallest tested budget reaching 90% is `K=32`, with 3,758 correct
+decisions out of 4,096. The committed prediction was `K=64`, so its absolute
+error is 32 slots in the conservative direction. The prediction
+underestimated how strongly log-normal traffic concentrates request mass and
+how much the lower partial-policy rate reduces fragmentation. The unseen
+crossing scopes did not break compilation: at `K=128`, where no region is
+omitted, every request is correct.
+
+Low-budget errors remain strongly concentrated in cold requests. At `K=32`,
+cold accuracy is only 28.1% (38/135, 95% CI `[21.2, 36.3]`), compared with
+93.9% for hot requests. This is the expected tradeoff of selecting regions by
+estimated residual traffic. The cold subgroup is also small under log-normal
+traffic, so its interval is substantially wider than the overall interval.
 
 ## Weaker approach or ablation
 
@@ -235,5 +258,16 @@ accuracy. The full measurements are in
 
 ## Recommendation
 
-> **To complete:** Recommend a memory budget. State the supporting accuracy,
-> uncertainty, and known failure conditions.
+For the stated goal of minimizing memory while reaching 90% overall accuracy,
+I recommend `K=32`. It uses 768 bytes per example and achieves 91.75% overall
+accuracy with a 95% Wilson interval of `[90.87%, 92.55%]`; even the lower bound
+is above the target.
+
+This recommendation is specific to an aggregate-accuracy objective under
+skewed traffic. Its main failure condition is poor coverage of cold rules:
+`K=32` achieves only 28.1% cold accuracy, as well as 87.8% conflict and 86.7%
+common-context accuracy. Applications that require balanced subgroup coverage
+should instead use `K=96`, which reaches 99.76% overall accuracy and 93.6% cold
+accuracy. Other risks are noisier traffic estimates or a less concentrated
+request distribution, both of which make top-k residual allocation less
+reliable and may require a larger budget.

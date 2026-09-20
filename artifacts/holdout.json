@@ -1,0 +1,425 @@
+{
+  "absolute_error": 32,
+  "cells": [
+    {
+      "accuracy": 0.91748046875,
+      "cold": {
+        "accuracy": 0.2814814814814815,
+        "correct": 38,
+        "total": 135,
+        "wilson95": [
+          0.2124782079386257,
+          0.36257667479495925
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.8668971477960242,
+        "correct": 1003,
+        "total": 1157,
+        "wilson95": [
+          0.846104673454352,
+          0.8852613486228611
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.8781925343811395,
+        "correct": 447,
+        "total": 509,
+        "wilson95": [
+          0.8469116263070483,
+          0.9038077107865784
+        ]
+      },
+      "correct": 3758,
+      "hot": {
+        "accuracy": 0.9391567785912648,
+        "correct": 3720,
+        "total": 3961,
+        "wilson95": [
+          0.9312784915876019,
+          0.9461840844405444
+        ]
+      },
+      "n_policies": 128,
+      "rare_context": {
+        "accuracy": 0.9373936713167744,
+        "correct": 2755,
+        "total": 2939,
+        "wilson95": [
+          0.9280515599168336,
+          0.9455938728990733
+        ]
+      },
+      "scope_profile": "crossing",
+      "single_rule": {
+        "accuracy": 0.9230554781154168,
+        "correct": 3311,
+        "total": 3587,
+        "wilson95": [
+          0.9138744420641183,
+          0.931331350172879
+        ]
+      },
+      "slot_count": 32,
+      "total": 4096,
+      "traffic_profile": "lognormal",
+      "utility_noise": 1.0,
+      "wilson95": [
+        0.9086577138505371,
+        0.925520884114993
+      ]
+    },
+    {
+      "accuracy": 0.96044921875,
+      "cold": {
+        "accuracy": 0.45652173913043476,
+        "correct": 63,
+        "total": 138,
+        "wilson95": [
+          0.37571826809265996,
+          0.5396802331652159
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.938474870017331,
+        "correct": 1083,
+        "total": 1154,
+        "wilson95": [
+          0.9231030676906532,
+          0.9509371493791007
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.9368836291913215,
+        "correct": 475,
+        "total": 507,
+        "wilson95": [
+          0.9122567413976435,
+          0.9549399051366649
+        ]
+      },
+      "correct": 3934,
+      "hot": {
+        "accuracy": 0.9780192016169783,
+        "correct": 3871,
+        "total": 3958,
+        "wilson95": [
+          0.9729666711408057,
+          0.9821447434200307
+        ]
+      },
+      "n_policies": 128,
+      "rare_context": {
+        "accuracy": 0.969068660774983,
+        "correct": 2851,
+        "total": 2942,
+        "wilson95": [
+          0.9621751156710404,
+          0.97473884883841
+        ]
+      },
+      "scope_profile": "crossing",
+      "single_rule": {
+        "accuracy": 0.9637782112008916,
+        "correct": 3459,
+        "total": 3589,
+        "wilson95": [
+          0.9571527936634507,
+          0.9694118872876265
+        ]
+      },
+      "slot_count": 48,
+      "total": 4096,
+      "traffic_profile": "lognormal",
+      "utility_noise": 1.0,
+      "wilson95": [
+        0.9540362633072799,
+        0.9659993131623048
+      ]
+    },
+    {
+      "accuracy": 0.979736328125,
+      "cold": {
+        "accuracy": 0.625,
+        "correct": 85,
+        "total": 136,
+        "wilson95": [
+          0.5412537518929232,
+          0.7018787231736812
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.9718189581554227,
+        "correct": 1138,
+        "total": 1171,
+        "wilson95": [
+          0.9606882714767044,
+          0.9798641679215434
+        ]
+      },
+      "conflict": {
+        "accuracy": 0.9630350194552529,
+        "correct": 495,
+        "total": 514,
+        "wilson95": [
+          0.9429906018735911,
+          0.9762096512000392
+        ]
+      },
+      "correct": 4013,
+      "hot": {
+        "accuracy": 0.9919191919191919,
+        "correct": 3928,
+        "total": 3960,
+        "wilson95": [
+          0.9886148636666727,
+          0.9942700575579821
+        ]
+      },
+      "n_policies": 128,
+      "rare_context": {
+        "accuracy": 0.9829059829059829,
+        "correct": 2875,
+        "total": 2925,
+        "wilson95": [
+          0.9775356895059648,
+          0.9870095205094294
+        ]
+      },
+      "scope_profile": "crossing",
+      "single_rule": {
+        "accuracy": 0.9821328866554997,
+        "correct": 3518,
+        "total": 3582,
+        "wilson95": [
+          0.9772499724059487,
+          0.9859827972703619
+        ]
+      },
+      "slot_count": 64,
+      "total": 4096,
+      "traffic_profile": "lognormal",
+      "utility_noise": 1.0,
+      "wilson95": [
+        0.9749504777230061,
+        0.9836231743251028
+      ]
+    },
+    {
+      "accuracy": 0.99755859375,
+      "cold": {
+        "accuracy": 0.9361702127659575,
+        "correct": 132,
+        "total": 141,
+        "wilson95": [
+          0.8831456427498142,
+          0.9660587287158678
+        ]
+      },
+      "common_context": {
+        "accuracy": 0.9966187658495351,
+        "correct": 1179,
+        "total": 1183,
+        "wilson95": [
+          0.9913383698316859,
+          0.9986843423573034
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 512,
+        "total": 512,
+        "wilson95": [
+          0.9925530242771171,
+          0.9999999999999999
+        ]
+      },
+      "correct": 4086,
+      "hot": {
+        "accuracy": 0.9997471554993679,
+        "correct": 3954,
+        "total": 3955,
+        "wilson95": [
+          0.9985690871060277,
+          0.9999553653426351
+        ]
+      },
+      "n_policies": 128,
+      "rare_context": {
+        "accuracy": 0.9979402677651905,
+        "correct": 2907,
+        "total": 2913,
+        "wilson95": [
+          0.9955132931959301,
+          0.9990556749690045
+        ]
+      },
+      "scope_profile": "crossing",
+      "single_rule": {
+        "accuracy": 0.9972098214285714,
+        "correct": 3574,
+        "total": 3584,
+        "wilson95": [
+          0.994871231499311,
+          0.9984836981723776
+        ]
+      },
+      "slot_count": 96,
+      "total": 4096,
+      "traffic_profile": "lognormal",
+      "utility_noise": 1.0,
+      "wilson95": [
+        0.9955114747539533,
+        0.9986733104236785
+      ]
+    },
+    {
+      "accuracy": 1.0,
+      "cold": {
+        "accuracy": 1.0,
+        "correct": 152,
+        "total": 152,
+        "wilson95": [
+          0.9753502126471109,
+          0.9999999999999999
+        ]
+      },
+      "common_context": {
+        "accuracy": 1.0,
+        "correct": 1192,
+        "total": 1192,
+        "wilson95": [
+          0.9967876520818384,
+          1.0
+        ]
+      },
+      "conflict": {
+        "accuracy": 1.0,
+        "correct": 498,
+        "total": 498,
+        "wilson95": [
+          0.9923452740837289,
+          1.0
+        ]
+      },
+      "correct": 4096,
+      "hot": {
+        "accuracy": 1.0,
+        "correct": 3944,
+        "total": 3944,
+        "wilson95": [
+          0.9990269470390937,
+          0.9999999999999999
+        ]
+      },
+      "n_policies": 128,
+      "rare_context": {
+        "accuracy": 1.0,
+        "correct": 2904,
+        "total": 2904,
+        "wilson95": [
+          0.9986789311332497,
+          1.0
+        ]
+      },
+      "scope_profile": "crossing",
+      "single_rule": {
+        "accuracy": 1.0,
+        "correct": 3598,
+        "total": 3598,
+        "wilson95": [
+          0.9989334736510163,
+          1.0
+        ]
+      },
+      "slot_count": 128,
+      "total": 4096,
+      "traffic_profile": "lognormal",
+      "utility_noise": 1.0,
+      "wilson95": [
+        0.9990630225926348,
+        0.9999999999999999
+      ]
+    }
+  ],
+  "checkpoint": "artifacts/model.pt",
+  "conflict_rate": 0.2,
+  "kind": "holdout",
+  "observed_smallest_k": 32,
+  "prediction": 64,
+  "prediction_cell": {
+    "accuracy": 0.979736328125,
+    "cold": {
+      "accuracy": 0.625,
+      "correct": 85,
+      "total": 136,
+      "wilson95": [
+        0.5412537518929232,
+        0.7018787231736812
+      ]
+    },
+    "common_context": {
+      "accuracy": 0.9718189581554227,
+      "correct": 1138,
+      "total": 1171,
+      "wilson95": [
+        0.9606882714767044,
+        0.9798641679215434
+      ]
+    },
+    "conflict": {
+      "accuracy": 0.9630350194552529,
+      "correct": 495,
+      "total": 514,
+      "wilson95": [
+        0.9429906018735911,
+        0.9762096512000392
+      ]
+    },
+    "correct": 4013,
+    "hot": {
+      "accuracy": 0.9919191919191919,
+      "correct": 3928,
+      "total": 3960,
+      "wilson95": [
+        0.9886148636666727,
+        0.9942700575579821
+      ]
+    },
+    "n_policies": 128,
+    "rare_context": {
+      "accuracy": 0.9829059829059829,
+      "correct": 2875,
+      "total": 2925,
+      "wilson95": [
+        0.9775356895059648,
+        0.9870095205094294
+      ]
+    },
+    "scope_profile": "crossing",
+    "single_rule": {
+      "accuracy": 0.9821328866554997,
+      "correct": 3518,
+      "total": 3582,
+      "wilson95": [
+        0.9772499724059487,
+        0.9859827972703619
+      ]
+    },
+    "slot_count": 64,
+    "total": 4096,
+    "traffic_profile": "lognormal",
+    "utility_noise": 1.0,
+    "wilson95": [
+      0.9749504777230061,
+      0.9836231743251028
+    ]
+  },
+  "prediction_sha256": "e822670e5d7dfe71b1bd4507ce028a50595d4bdcb63bbf604f4dc407b299f195",
+  "protocol_version": 4,
+  "requested_decisions_per_cell": 4096,
+  "scope_profile": "crossing",
+  "seed": 128001,
+  "traffic_profile": "lognormal",
+  "utility_noise": 1.0
+}
